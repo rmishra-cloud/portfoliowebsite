@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-section {
+    background-color: #0d6efd;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 2.5em;
+}
+
+.about-section, .skills-section, .experience-section, .contact-section {
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #0d6efd;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    background-color: #e9ecef;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+footer p a {
+    color: #0d6efd;
+    text-decoration: none;
+}
