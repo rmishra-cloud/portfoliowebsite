@@ -31,10 +31,44 @@ nav ul li a {
 }
 
 .home-section {
-    background-color: #0d6efd;
-    color: white;
-    padding: 100px 0;
+    position: relative;
+    height: 400px;
     text-align: center;
+}
+
+/* Slider Container */
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Slider Images */
+.slider-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Active Slide */
+.slider-img.active {
+    opacity: 1;
+}
+
+.home-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .home-content h1 {
